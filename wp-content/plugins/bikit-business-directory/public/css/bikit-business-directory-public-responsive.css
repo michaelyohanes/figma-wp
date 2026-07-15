@@ -1,0 +1,57 @@
+/*------------------------------------------------------------------
+[Media Stylesheet]
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Min width 992px and Max width: 1199px
+2. Max width: 1140px 
+3. Max width: 992px
+4. Max width: 992px and min width: 768px
+5. Max width: 767px
+6. Max width: 480px
+7. Custom media for IE
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[1. Min width 992px and Max width: 1199px ]
+*/
+/*------------------------------------------------------------------
+[2. Max width: 1140px ]
+*/
+/*------------------------------------------------------------------
+[3. Max width: 991px ]
+*/
+/*------------------------------------------------------------------
+  [4. Max width: 992px and min width: 768px]
+  */
+/*------------------------------------------------------------------
+  [5. Max width: 767px]
+  */
+@media (max-width: 767px) {
+  .bdbikit-reviews .bdbikit-reviews-slide .bdbikit-reviews-slide--avatar {
+    position: relative;
+    left: 0;
+    top: 0px;
+    transform: initial;
+  }
+  .bdbikit-reviews .bdbikit-reviews-slide {
+    padding: 30px 30px;
+    margin-left: 0;
+  }
+  .bdbikit-reviews .bdbikit-reviews-slide .bdbikit-reviews-slide--avatar img {
+    margin: 0 auto;
+  }
+  .bdbikit-reviews .bdbikit-reviews-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*------------------------------------------------------------------
+  [6. Max width: 540px]
+  */
+/*------------------------------------------------------------------
+  [7. Custom media for IE]
+  */

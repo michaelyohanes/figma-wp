@@ -1,0 +1,2913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<fields>
+		<field>
+			<section>SEO</section>
+			<field_label>Short Description</field_label>
+			<field_type>TEXTAREA</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required>1</is_required>
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>12</columns_number>
+			<order_index>1</order_index>
+			<validation />
+		</field>
+		<field>
+			<section>SEO</section>
+			<field_label>Keywords</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>12</columns_number>
+			<order_index>2</order_index>
+			<validation />
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Purpose</field_label>
+			<field_type>DROPDOWN</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list>,Fan,Learning,Food &amp; Drink,Shopping,Emergency,Transport,Sleeping</values_list>
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>3</order_index>
+			<validation />
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Entry Fee / Starting Price</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>$</suffix>
+			<hint>Minimum cost or entry price</hint>
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>4</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Price Range</field_label>
+			<field_type>DROPDOWN</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list>$,$$,$$$,$$$$</values_list>
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>5</order_index>
+			<validation />
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Phone</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>6</order_index>
+			<validation>is_phone</validation>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Email</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>7</order_index>
+			<validation>is_email</validation>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Website URL</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>8</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Social Media Links</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>9</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Embed Code</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>10</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Custom ID</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>14</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Tagline / Slogan</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>15</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Founded Year</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>16</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Company Type</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint>Sole Proprietor / LLC / Corporation</hint>
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>17</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Main Services</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint>“Massage, Sauna, Facials</hint>
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>18</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Employees Count</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint>Staff size</hint>
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>19</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Certifications / Awards</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint>“ISO 9001”, “Best Spa 2024”</hint>
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>20</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Facebook</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>21</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Instagram</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>22</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>LinkedIn</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>23</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Telegram</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>24</order_index>
+			<validation>is_phone|wdk_viber</validation>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Viber</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>25</order_index>
+			<validation>is_phone|wdk_viber</validation>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>WhatsApp</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>25</order_index>
+			<validation>is_phone|wdk_whatsapp</validation>
+		</field>
+		<field>
+			<section>Location</section>
+			<field_label>Country</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>45</order_index>
+		</field>
+		<field>
+			<section>Location</section>
+			<field_label>State/County</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>46</order_index>
+		</field>
+		<field>
+			<section>Location</section>
+			<field_label>City</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>47</order_index>
+		</field>
+		<field>
+			<section>Location</section>
+			<field_label>Area</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>48</order_index>
+		</field>
+		<field>
+			<section>Location</section>
+			<field_label>Street</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>49</order_index>
+		</field>
+		<field>
+			<section>Location</section>
+			<field_label>Street Num</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>50</order_index>
+		</field>
+		<field>
+			<section>Location</section>
+			<field_label>Zip</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>51</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Equipped Kitchen</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend>1</is_visible_frontend>
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>52</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Gym</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>53</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Washer</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>54</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Heating</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>55</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Air Conditioning</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>56</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Elevator</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>57</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Fireplace</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>58</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Dishwasher</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>59</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Microwave</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>60</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>TV Cable</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>61</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Refrigerator</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>62</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>WiFi</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>63</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Sauna</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>64</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Heating</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>65</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Air Conditioning Automatic</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>66</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Air Conditioning Manual</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>67</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Navigation</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>68</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Video Player</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>69</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Isofix</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>70</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Parking Sensors Front</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>71</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>Parking Sensors Rear</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>72</order_index>
+		</field>
+		<field>
+			<section>Interior Details</section>
+			<field_label>LED Lights</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>73</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Pool</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>74</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Garage Attached</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>75</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Front yard</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>76</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Back yard</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>77</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Balcony</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>78</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Grill</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>79</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Parking</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>80</order_index>
+		</field>
+		<field>
+			<section>Outdoor Details</section>
+			<field_label>Outdoor Shower</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>81</order_index>
+		</field>
+		<field>
+			<section>Multimedia</section>
+			<field_label>Video URL</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>6</columns_number>
+			<order_index>82</order_index>
+		</field>
+		<field>
+			<section>Multimedia</section>
+			<field_label>Virtual Tour URL</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>6</columns_number>
+			<order_index>83</order_index>
+		</field>
+		<field>
+			<section>Multimedia</section>
+			<field_label>Embed Video Code</field_label>
+			<field_type>TEXTAREA</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>12</columns_number>
+			<order_index>84</order_index>
+		</field>
+		<field>
+			<section>Multimedia</section>
+			<field_label>Embed Virtual Tour Code</field_label>
+			<field_type>TEXTAREA</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>12</columns_number>
+			<order_index>85</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Beach</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>86</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Train</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>87</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Metro</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>88</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Bus</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>89</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Pharmacies</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>90</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Bakery</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>91</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Restaurant</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>92</order_index>
+		</field>
+		<field>
+			<section>Distances</section>
+			<field_label>Coffe shop</field_label>
+			<field_type>NUMBER</field_type>
+			<prefix />
+			<suffix>m</suffix>
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>93</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Comedy</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>94</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Food</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>95</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Education</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>96</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Pop</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>97</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Design</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>98</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>R&amp;B</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>99</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Hip Hop / Rap</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>100</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Film</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>101</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Personal health</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>102</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Blues &amp; Jazz</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>103</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Travel</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>104</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Rock</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>105</order_index>
+		</field>
+		<field>
+			<section>Interests</section>
+			<field_label>Comedy</field_label>
+			<field_type>CHECKBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>106</order_index>
+		</field>
+		<field>
+			<section>Overview</section>
+			<field_label>Open Time</field_label>
+			<field_type>INPUTBOX</field_type>
+			<prefix />
+			<suffix />
+			<hint />
+			<values_list />
+			<is_table_visible />
+			<is_visible_frontend />
+			<is_visible_dashboard />
+			<is_hardlocked />
+			<is_required />
+			<is_translatable />
+			<is_quickvisible />
+			<max_length />
+			<icon_id />
+			<columns_number>4</columns_number>
+			<order_index>18</order_index>
+		</field>
+	</fields>
+	<listings>
+		<listing>
+			<post_title>After Dark</post_title>
+			<category_id>14</category_id>
+			<address>5 Avenue Anatole France</address>
+			<field_27>France</field_27>
+			<field_28>Paris</field_28>
+			<field_29>Paris</field_29>
+			<field_33>75007</field_33>
+			<lat>48.858370</lat>
+			<lng>2.294481</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>28</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>90</field_6>
+			<field_7>$</field_7>
+			<field_9>afterdark@edemo.demo</field_9>
+			<field_8>+385 92 234 7654</field_8>
+			<field_15>1996</field_15>
+			<field_14>Party after dark</field_14>
+			<field_16>Night Club</field_16>
+			<field_17>Music, Dance, Drinks</field_17>
+			<field_19>Nightlife Winner 2018</field_19>
+			<field_94>23:00 - 05:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-82.jpg,listing-83.jpg,listing-84.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Where Taste Lives</post_title>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<address>Graben 18</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Wien</field_29>
+			<field_33>1010</field_33>
+			<lat>48.209209</lat>
+			<lng>16.370126</lng>
+			<is_featured />
+			<location_id>1</location_id>
+			<category_id>1</category_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>500</field_6>
+			<field_7>$$$</field_7>
+			<field_9>wheretastelives@edemo.demo</field_9>
+			<field_8>+385 91 123 4567</field_8>
+			<field_15>2003</field_15>
+			<field_14>Taste the experience</field_14>
+			<field_16>Restaurant</field_16>
+			<field_17>Massage, Sauna, Facials</field_17>
+			<field_19>ISO 9001, Best Spa 2024</field_19>
+			<field_94>08:00 - 22:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-1.jpg,listing-2.jpg,listing-3.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Dine &amp; Delight</post_title>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<address>Mariahilfer Str. 12</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Wien</field_29>
+			<field_33>1070</field_33>
+			<lat>48.199941</lat>
+			<lng>16.344797</lng>
+			<is_featured />
+			<location_id />
+			<category_id>1</category_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>180</field_6>
+			<field_7>$$</field_7>
+			<field_9>dinedelight@edemo.demo</field_9>
+			<field_8>+385 99 246 1357</field_8>
+			<field_15>2012</field_15>
+			<field_14>Dine with delight</field_14>
+			<field_16>Staff size: 12</field_16>
+			<field_17>Sauna, Facials, Body Wraps</field_17>
+			<field_19>Best Restaurant Vienna 2023</field_19>
+			<field_94>09:00 - 21:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-4.jpg,listing-5.jpg,listing-6.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Rolling Bites</post_title>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<is_featured>1</is_featured>
+			<address>Praterstraße 24</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Wien</field_29>
+			<field_33>1020</field_33>
+			<lat>48.217888</lat>
+			<lng>16.382395</lng>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>600</field_6>
+			<field_7>$$$</field_7>
+			<field_9>rollingbites@edemo.demo</field_9>
+			<field_8>+385 92 111 2233</field_8>
+			<field_15>2017</field_15>
+			<category_id>2</category_id>
+			<location_id>1</location_id>
+			<is_activated>1</is_activated>
+			<field_14>Rolling out flavors</field_14>
+			<field_16>Food Truck</field_16>
+			<field_17>Drive-thru, Takeaway, Finger Food</field_17>
+			<field_19>Top Food Truck 2022</field_19>
+			<field_94>10:00 - 20:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-7.jpg,listing-8.jpg,listing-9.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Street Eats</post_title>
+			<category_id>2</category_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<address>Schönbrunner Str. 22</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Wien</field_29>
+			<field_33>1050</field_33>
+			<lat>48.189225</lat>
+			<lng>16.352127</lng>
+			<location_id>1</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>450</field_6>
+			<field_7>$$$</field_7>
+			<field_9>streeteats@edemo.demo</field_9>
+			<field_8>+385 98 554 8874</field_8>
+			<field_15>1999</field_15>
+			<field_14>Eat with the street beat</field_14>
+			<field_16>Staff size: 8</field_16>
+			<field_17>Grills, Snacks, Drinks</field_17>
+			<field_19>Street Food Champion</field_19>
+			<field_94>11:00 - 23:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-10.jpg,listing-11.jpg,listing-12.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Bistro</post_title>
+			<category_id>3</category_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<address>Trg bana Josipa Jelačića 1</address>
+			<field_27>Croatia</field_27>
+			<field_28 />
+			<field_29>Zagreb</field_29>
+			<field_33>10000</field_33>
+			<lat>45.812137</lat>
+			<lng>15.978217</lng>
+			<location_id>10</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>150</field_6>
+			<field_7>$$</field_7>
+			<field_9>feastenjoy@edemo.demo</field_9>
+			<field_8>+385 95 415 6680</field_8>
+			<field_15>2007</field_15>
+			<field_14>Classic dining bistro</field_14>
+			<field_16>Bistro</field_16>
+			<field_17>Table Service, Wine Bar</field_17>
+			<field_19>The Zagreb Bistro Award</field_19>
+			<field_94>07:00 - 15:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-13.jpg,listing-14.jpg,listing-15.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Buffet Delights</post_title>
+			<category_id>3</category_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<address>10 Gresham Street</address>
+			<field_27>United Kingdom</field_27>
+			<field_28>London</field_28>
+			<field_29>London</field_29>
+			<field_33>EC2V 7JD</field_33>
+			<lat>51.515419</lat>
+			<lng>-0.093041</lng>
+			<location_id>91</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>250</field_6>
+			<field_7>$$$</field_7>
+			<field_9>buffetdelights@edemo.demo</field_9>
+			<field_8>+385 91 552 6633</field_8>
+			<field_15>2021</field_15>
+			<field_14>All you can eat</field_14>
+			<field_16>Buffet</field_16>
+			<field_17>All-day dining, Desserts</field_17>
+			<field_19>OpenTable Buffet Sequence</field_19>
+			<field_94>06:30 - 23:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-16.jpg,listing-17.jpg,listing-18.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Quick Bites</post_title>
+			<category_id>4</category_id>
+			<address>221B Baker Street</address>
+			<field_27>United Kingdom</field_27>
+			<field_28>London</field_28>
+			<field_29>London</field_29>
+			<field_33>NW1 6XE</field_33>
+			<lat>51.523771</lat>
+			<lng>-0.158539</lng>
+			<location_id>91</location_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<is_activated>1</is_activated>
+			<field_6>400</field_6>
+			<field_7>$$$</field_7>
+			<field_9>quickbites@edemo.demo</field_9>
+			<field_8>+385 99 223 7814</field_8>
+			<field_15>2018</field_15>
+			<field_14>Get it quick!</field_14>
+			<field_16>Fast Casual</field_16>
+			<field_17>Burgers, Fries, Drinks</field_17>
+			<field_19>Top Fast Casual 2021</field_19>
+			<field_94>09:00 - 22:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-22.jpg,listing-23.jpg,listing-24.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Chic Bites</post_title>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<category_id>5</category_id>
+			<address>Britanski trg 1</address>
+			<field_27>Croatia</field_27>
+			<field_28 />
+			<field_29>Zagreb</field_29>
+			<field_33>10000</field_33>
+			<lat>45.815054</lat>
+			<lng>15.965548</lng>
+			<location_id>10</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>180</field_6>
+			<field_7>$$</field_7>
+			<field_9>chicbites@edemo.demo</field_9>
+			<field_8>+385 98 715 9985</field_8>
+			<field_15>2016</field_15>
+			<field_14>Bite with style</field_14>
+			<field_16>Bistro</field_16>
+			<field_17>Tapas, Cocktails</field_17>
+			<field_19>Design Winner 2016</field_19>
+			<field_94>10:00 - 23:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-28.jpg,listing-29.jpg,listing-30.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Cozy Dining</post_title>
+			<category_id>5</category_id>
+			<address>Opernring 2</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Wien</field_29>
+			<field_33>1010</field_33>
+			<lat>48.202979</lat>
+			<lng>16.368858</lng>
+			<location_id>1</location_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>260</field_6>
+			<field_7>$$$</field_7>
+			<field_9>cozydining@edemo.demo</field_9>
+			<field_8>+385 95 786 2114</field_8>
+			<field_15>2001</field_15>
+			<field_14>The place to gather</field_14>
+			<field_16>Family Restaurant</field_16>
+			<field_17>Buffet, Family Meals</field_17>
+			<field_19>Top Family Spot</field_19>
+			<field_94>09:00 - 23:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-31.jpg,listing-32.jpg,listing-33.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Gourmet Experience</post_title>
+			<category_id>6</category_id>
+			<address>20 Fenchurch Street</address>
+			<field_27>United Kingdom</field_27>
+			<field_28>London</field_28>
+			<field_29>London</field_29>
+			<field_33>EC3M 3BY</field_33>
+			<lat>51.511396</lat>
+			<lng>-0.083612</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<is_activated>1</is_activated>
+			<location_id>91</location_id>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>500</field_6>
+			<field_7>$$$</field_7>
+			<field_9>gourmetexperience@edemo.demo</field_9>
+			<field_8>+385 97 551 4981</field_8>
+			<field_15>2015</field_15>
+			<field_14>Gourmet, always</field_14>
+			<field_16>Fine Dining</field_16>
+			<field_17>Chef's Menu, Wine Pairings</field_17>
+			<field_19>Michelin Star</field_19>
+			<field_94>18:00 - 23:30</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-34.jpg,listing-35.jpg,listing-36.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Luxury Cuisine</post_title>
+			<category_id>6</category_id>
+			<address>5 Avenue Anatole France</address>
+			<field_27>France</field_27>
+			<field_28>Paris</field_28>
+			<field_29>Paris</field_29>
+			<field_33>75007</field_33>
+			<lat>48.858370</lat>
+			<lng>2.294481</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>28</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>400</field_6>
+			<field_7>$$$</field_7>
+			<field_9>luxurycuisine@edemo.demo</field_9>
+			<field_8>+385 91 908 3129</field_8>
+			<field_15>2000</field_15>
+			<field_14>Luxury meets flavor</field_14>
+			<field_16>Fine Dining</field_16>
+			<field_17>Private Dining</field_17>
+			<field_19>Cordon Bleu Paris</field_19>
+			<field_94>19:00 - 01:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-37.jpg,listing-38.jpg,listing-39.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Retail Therapy</post_title>
+			<category_id>7</category_id>
+			<address>Václavské nám. 68</address>
+			<field_27>Czechia</field_27>
+			<field_28>Prague</field_28>
+			<field_29>Prague</field_29>
+			<field_33>110 00</field_33>
+			<lat>50.081467</lat>
+			<lng>14.428504</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>19</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>160</field_6>
+			<field_7>$$</field_7>
+			<field_9>retailtherapy@edemo.demo</field_9>
+			<field_8>+385 97 407 2012</field_8>
+			<field_15>2005</field_15>
+			<field_14>Shop smart, smile more</field_14>
+			<field_16>Retail Shop</field_16>
+			<field_17>Clothing, Shoes, Accessories</field_17>
+			<field_19>Retailer of the Year</field_19>
+			<field_94>09:00 - 21:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-40.jpg,listing-41.jpg,listing-42.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Must-Have Picks</post_title>
+			<category_id>7</category_id>
+			<address>5 Avenue Anatole France</address>
+			<field_27>France</field_27>
+			<field_28>Paris</field_28>
+			<field_29>Paris</field_29>
+			<field_33>75007</field_33>
+			<lat>48.858370</lat>
+			<lng>2.294481</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>28</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>70</field_6>
+			<field_7>$</field_7>
+			<field_9>musthavepicks@edemo.demo</field_9>
+			<field_8>+385 91 747 2452</field_8>
+			<field_15>2019</field_15>
+			<field_14>Must have, must buy</field_14>
+			<field_16>Staff size: 6</field_16>
+			<field_17>Gadgets, Bags</field_17>
+			<field_19>Paris Shopping Award</field_19>
+			<field_94>10:00 - 18:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-43.jpg,listing-44.jpg,listing-45.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Furry Friends</post_title>
+			<category_id>8</category_id>
+			<address>Opernring 2</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Vienna</field_29>
+			<field_33>1010</field_33>
+			<lat>48.202979</lat>
+			<lng>16.368858</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>1</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>190</field_6>
+			<field_7>$$</field_7>
+			<field_9>furryfriends@edemo.demo</field_9>
+			<field_8>+385 92 189 3241</field_8>
+			<field_15>2008</field_15>
+			<field_14>Pets are family too</field_14>
+			<field_16>Pet Shop</field_16>
+			<field_17>Pet Food, Accessories</field_17>
+			<field_19>Best Pet Shop 2010</field_19>
+			<field_94>08:00 - 18:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-46.jpg,listing-47.jpg,listing-48.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Happy Tails</post_title>
+			<category_id>8</category_id>
+			<address>Václavské nám. 68</address>
+			<field_27>Czechia</field_27>
+			<field_28>Prague</field_28>
+			<field_29>Prague</field_29>
+			<field_33>110 00</field_33>
+			<lat>50.081467</lat>
+			<lng>14.428504</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>19</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>120</field_6>
+			<field_7>$</field_7>
+			<field_9>happytails@edemo.demo</field_9>
+			<field_8>+385 95 867 9001</field_8>
+			<field_15>2006</field_15>
+			<field_14>Happier pets, happy you</field_14>
+			<field_16>Staff size: 3</field_16>
+			<field_17>Grooming, Training</field_17>
+			<field_19>Czech Pet Award</field_19>
+			<field_94>09:00 - 19:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-49.jpg,listing-50.jpg,listing-51.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Green &amp; Fresh</post_title>
+			<category_id>9</category_id>
+			<address>5 Avenue Anatole France</address>
+			<field_27>France</field_27>
+			<field_28>Paris</field_28>
+			<field_29>Paris</field_29>
+			<field_33>75007</field_33>
+			<lat>48.858370</lat>
+			<lng>2.294481</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>28</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>280</field_6>
+			<field_7>$$$</field_7>
+			<field_9>greenfresh@edemo.demo</field_9>
+			<field_8>+385 98 123 6000</field_8>
+			<field_15>1997</field_15>
+			<field_14>Eat fresh every day</field_14>
+			<field_16>Grocer</field_16>
+			<field_17>Organic Veggies, Fruits</field_17>
+			<field_19>Eco-Food Cert. 2022</field_19>
+			<field_94>06:00 - 14:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-52.jpg,listing-53.jpg,listing-54.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Daily Harvest</post_title>
+			<category_id>9</category_id>
+			<address>5 Avenue Anatole France</address>
+			<field_27>France</field_27>
+			<field_28>Paris</field_28>
+			<field_29>Paris</field_29>
+			<field_33>75007</field_33>
+			<lat>48.858370</lat>
+			<lng>2.294481</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>28</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>80</field_6>
+			<field_7>$</field_7>
+			<field_9>dailyharvest@edemo.demo</field_9>
+			<field_8>+385 99 907 1307</field_8>
+			<field_15>2022</field_15>
+			<field_14>Harvest every day</field_14>
+			<field_16>Grocer</field_16>
+			<field_17>Salads, Juices, Dairy</field_17>
+			<field_19>Paris Harvest Honor</field_19>
+			<field_94>06:00 - 16:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-55.jpg,listing-56.jpg,listing-57.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Timeless Gems</post_title>
+			<category_id>10</category_id>
+			<address>Václavské nám. 68</address>
+			<field_27>Czechia</field_27>
+			<field_28>Prague</field_28>
+			<field_29>Prague</field_29>
+			<field_33>110 00</field_33>
+			<lat>50.081467</lat>
+			<lng>14.428504</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>19</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>99</field_6>
+			<field_7>$</field_7>
+			<field_9>timelessgems@edemo.demo</field_9>
+			<field_8>+385 97 561 3240</field_8>
+			<field_15>2014</field_15>
+			<field_14>Jewels beyond time</field_14>
+			<field_16>Jewelry</field_16>
+			<field_17>Rings, Necklaces</field_17>
+			<field_19>Prague Jeweler Prize</field_19>
+			<field_94>10:00 - 19:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-58.jpg,listing-59.jpg,listing-60.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Fine Jewelry</post_title>
+			<category_id>10</category_id>
+			<address>Václavské nám. 68</address>
+			<field_27>Czechia</field_27>
+			<field_28>Prague</field_28>
+			<field_29>Prague</field_29>
+			<field_33>110 00</field_33>
+			<lat>50.081467</lat>
+			<lng>14.428504</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>19</location_id>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<is_activated>1</is_activated>
+			<field_6>250</field_6>
+			<field_7>$$$</field_7>
+			<field_9>finejewelry@edemo.demo</field_9>
+			<field_8>+385 92 808 5800</field_8>
+			<field_15>2023</field_15>
+			<field_14>Shine every day</field_14>
+			<field_16>Jewelry</field_16>
+			<field_17>Earrings, Stones</field_17>
+			<field_19>Top Jeweler New 2023</field_19>
+			<field_94>11:00 - 17:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-61.jpg,listing-62.jpg,listing-63.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Daily Reads</post_title>
+			<category_id>11</category_id>
+			<address>Opernring 2</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Vienna</field_29>
+			<field_33>1010</field_33>
+			<lat>48.202979</lat>
+			<lng>16.368858</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>1</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>400</field_6>
+			<field_7>$$$</field_7>
+			<field_9>dailyreads@edemo.demo</field_9>
+			<field_8>+385 99 199 3030</field_8>
+			<field_15>2010</field_15>
+			<field_14>Read smarter daily</field_14>
+			<field_16>Bookstore</field_16>
+			<field_17>Books, Magazines</field_17>
+			<field_19>Library Star 2010</field_19>
+			<field_94>07:00 - 20:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-64.jpg,listing-65.jpg,listing-66.jpg</images>
+		</listing>
+		<listing>
+			<post_title>News &amp; More</post_title>
+			<category_id>11</category_id>
+			<address>Václavské nám. 68</address>
+			<field_27>Czechia</field_27>
+			<field_28>Prague</field_28>
+			<field_29>Prague</field_29>
+			<field_33>110 00</field_33>
+			<lat>50.081467</lat>
+			<lng>14.428504</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>19</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>120</field_6>
+			<field_7>$</field_7>
+			<field_9>newsandmore@edemo.demo</field_9>
+			<field_8>+385 95 501 4492</field_8>
+			<field_15>2004</field_15>
+			<field_14>All the news &amp; more</field_14>
+			<field_16>Bookstore</field_16>
+			<field_17>Newspapers, Comics</field_17>
+			<field_19>News Award 2009</field_19>
+			<field_94>08:00 - 19:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-67.jpg,listing-68.jpg,listing-69.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Sole &amp; Style</post_title>
+			<category_id>12</category_id>
+			<address>Václavské nám. 68</address>
+			<field_27>Czechia</field_27>
+			<field_28>Prague</field_28>
+			<field_29>Prague</field_29>
+			<field_33>110 00</field_33>
+			<lat>50.081467</lat>
+			<lng>14.428504</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>19</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>350</field_6>
+			<field_7>$$$</field_7>
+			<field_9>solestyle@edemo.demo</field_9>
+			<field_8>+385 98 703 1321</field_8>
+			<field_15>2011</field_15>
+			<field_14>Shoe your style</field_14>
+			<field_16>Shoe Store</field_16>
+			<field_17>Sneakers, Heels</field_17>
+			<field_19>Shoe Store of Year</field_19>
+			<field_94>09:00 - 20:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-70.jpg,listing-71.jpg,listing-72.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Step in Style</post_title>
+			<category_id>12</category_id>
+			<address>5 Avenue Anatole France</address>
+			<field_27>France</field_27>
+			<field_28>Paris</field_28>
+			<field_29>Paris</field_29>
+			<field_33>75007</field_33>
+			<lat>48.858370</lat>
+			<lng>2.294481</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>28</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>9</field_6>
+			<field_7>$</field_7>
+			<field_9>stepinstyle@edemo.demo</field_9>
+			<field_8>+385 97 100 8229</field_8>
+			<field_15>1995</field_15>
+			<field_14>Step it up!</field_14>
+			<field_16>Shoe Store</field_16>
+			<field_17>Boots, Sandals</field_17>
+			<field_19>Paris Style Medal</field_19>
+			<field_94>08:30 - 17:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-73.jpg,listing-74.jpg,listing-75.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Coffee Fix</post_title>
+			<category_id>13</category_id>
+			<address>Britanski trg 1</address>
+			<field_27>Croatia</field_27>
+			<field_28 />
+			<field_29>Zagreb</field_29>
+			<field_33>10000</field_33>
+			<lat>45.815054</lat>
+			<lng>15.965548</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>10</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>200</field_6>
+			<field_7>$$</field_7>
+			<field_9>coffeefix@edemo.demo</field_9>
+			<field_8>+385 91 555 2167</field_8>
+			<field_15>2009</field_15>
+			<field_14>Your daily coffee fix</field_14>
+			<field_16>Coffee Shop</field_16>
+			<field_17>Espresso, Pastries</field_17>
+			<field_19>Zagreb Coffee Medal</field_19>
+			<field_94>07:00 - 22:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-76.jpg,listing-77.jpg,listing-78.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Daily Roast</post_title>
+			<category_id>13</category_id>
+			<address>Opernring 2</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Vienna</field_29>
+			<field_33>1010</field_33>
+			<lat>48.202979</lat>
+			<lng>16.368858</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>1</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>120</field_6>
+			<field_7>$</field_7>
+			<field_9>dailyroast@edemo.demo</field_9>
+			<field_8>+385 98 888 3994</field_8>
+			<field_15>2013</field_15>
+			<field_14>Roast, sip, enjoy</field_14>
+			<field_16>Coffee Shop</field_16>
+			<field_17>Coffee, Cakes</field_17>
+			<field_19>Vienna Roast Cup</field_19>
+			<field_94>08:00 - 20:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-79.jpg,listing-80.jpg,listing-81.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Night Vibes</post_title>
+			<category_id>14</category_id>
+			<address>Opernring 2</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Vienna</field_29>
+			<field_33>1010</field_33>
+			<lat>48.202979</lat>
+			<lng>16.368858</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>1</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>550</field_6>
+			<field_7>$$$</field_7>
+			<field_9>nightvibes@edemo.demo</field_9>
+			<field_8>+385 99 477 6644</field_8>
+			<field_15>2016</field_15>
+			<field_14>Feel the vibes</field_14>
+			<field_16>Night Club</field_16>
+			<field_17>Shows, Dances, DJs</field_17>
+			<field_19>Vienna Night Star 2020</field_19>
+			<field_94>22:00 - 04:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-85.jpg,listing-86.jpg,listing-87.jpg</images>
+		</listing>
+
+		<listing>
+			<post_title>Rest &amp; Relax</post_title>
+			<category_id>15</category_id>
+			<address>Opernring 2</address>
+			<field_27>Austria</field_27>
+			<field_28 />
+			<field_29>Vienna</field_29>
+			<field_33>1010</field_33>
+			<lat>48.202979</lat>
+			<lng>16.368858</lng>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<location_id>1</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>99</field_6>
+			<field_7>$</field_7>
+			<field_9>restandrelax@edemo.demo</field_9>
+			<field_8>+385 99 251 1897</field_8>
+			<field_15>2002</field_15>
+			<field_14>Relax, recharge, repeat</field_14>
+			<field_16>Hotel</field_16>
+			<field_17>Pool, Room Service</field_17>
+			<field_19>Austria Hotel Cert.</field_19>
+			<field_94>00:00 - 24:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-91.jpg,listing-92.jpg,listing-93.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Fresh &amp; Fast</post_title>
+			<category_id>4</category_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<address>Vlaška ul. 50</address>
+			<field_27>Croatia</field_27>
+			<field_28 />
+			<field_29>Zagreb</field_29>
+			<field_33>10000</field_33>
+			<lat>45.812967</lat>
+			<lng>16.000680</lng>
+			<location_id>10</location_id>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>450</field_6>
+			<field_7>$$$</field_7>
+			<field_9>freshfast@edemo.demo</field_9>
+			<field_8>+385 92 432 1125</field_8>
+			<field_15>2020</field_15>
+			<field_14>Speed &amp; freshness</field_14>
+			<field_16>Fast Casual</field_16>
+			<field_17>Wraps, Smoothies</field_17>
+			<field_19>Healthy Food Award</field_19>
+			<field_94>07:30 - 19:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-25.jpg,listing-26.jpg,listing-27.jpg</images>
+		</listing>
+		<listing>
+			<post_title>Stay in Style</post_title>
+			<category_id>15</category_id>
+			<address>20 Fenchurch Street</address>
+			<field_27>United Kingdom</field_27>
+			<field_28>London</field_28>
+			<field_29>London</field_29>
+			<field_33>EC3M 3BY</field_33>
+			<lat>51.511396</lat>
+			<lng>-0.083612</lng>
+			<location_id>91</location_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<is_activated>1</is_activated>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>450</field_6>
+			<field_7>$$$</field_7>
+			<field_9>stayinstyle@edemo.demo</field_9>
+			<field_8>+385 91 321 2189</field_8>
+			<field_15>2024</field_15>
+			<field_14>Stay with style</field_14>
+			<field_16>Hotel</field_16>
+			<field_17>Spa, Suites, Events</field_17>
+			<field_19>5-Star UK</field_19>
+			<field_94>00:00 - 24:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-88.jpg,listing-89.jpg,listing-90.jpg</images>
+		</listing>
+	
+		<listing>
+			<post_title>Endless Flavors</post_title>
+			<category_id>3</category_id>
+			<post_content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+				officia deserunt mollit anim id est laborum.</post_content>
+			<address>Ivana Tkalčića 5</address>
+			<field_27>Croatia</field_27>
+			<field_28 />
+			<field_29>Zagreb</field_29>
+			<field_33>10000</field_33>
+			<lat>45.815159</lat>
+			<lng>15.977121</lng>
+			<is_activated>1</is_activated>
+			<location_id>10</location_id>
+			<field_2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua.</field_2>
+			<field_6>300</field_6>
+			<field_7>$$$</field_7>
+			<field_9>endlessflavors@edemo.demo</field_9>
+			<field_8>+385 98 102 5544</field_8>
+			<field_15>1998</field_15>
+			<field_14>Variety never ends</field_14>
+			<field_16>Buffet</field_16>
+			<field_17>Bakery, Fresh Juices</field_17>
+			<field_19>Best Flavors Award</field_19>
+			<field_94>07:00 - 22:00</field_94>
+			<field_67>https://www.youtube.com/watch?v=GCPBudrVA5s</field_67>
+			<images>listing-19.jpg,listing-20.jpg,listing-21.jpg</images>
+		</listing>
+	</listings>
+	<categories>
+		<category>
+			<category_title>Restaurant</category_title>
+			<image_id>category-image-restaurant.jpg</image_id>
+			<font_icon_code>fa fa-car</font_icon_code>
+			<icon_id>category-rest.png</icon_id>
+			<code />
+			<parent_id />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Food Truck</category_title>
+			<parent_id>1</parent_id>
+			<image_id>category-image-food-truck.jpg</image_id>
+			<font_icon_code>fa fa-female</font_icon_code>
+			<icon_id>category-food-delivery.png</icon_id>
+			<code />
+		</category>
+		<category>
+			<category_title>Buffet</category_title>
+			<parent_id>1</parent_id>
+			<image_id>category-image-buffet.jpg</image_id>
+			<font_icon_code>fa fa-shopping-bag</font_icon_code>
+			<icon_id>category-buffet.png</icon_id>
+			<code />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Fast Casual</category_title>
+			<parent_id>1</parent_id>
+			<image_id>category-image-fast-casual.jpg</image_id>
+			<font_icon_code>fa  fa-hand-peace-o</font_icon_code>
+			<icon_id>category-fast.png</icon_id>
+			<code />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Bistro</category_title>
+			<parent_id>1</parent_id>
+			<image_id>category-image-bistro.jpg</image_id>
+			<font_icon_code>fa fa-tags</font_icon_code>
+			<icon_id>category-bistro.png</icon_id>
+			<code />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Fine Dining</category_title>
+			<parent_id>1</parent_id>
+			<image_id>category-image-fine-dining.jpg</image_id>
+			<font_icon_code>fa fa-street-view</font_icon_code>
+			<icon_id>category-food.png</icon_id>
+			<code />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Shopping</category_title>
+			<image_id>category-image-shopping.jpg</image_id>
+			<font_icon_code>fa fa-building</font_icon_code>
+			<icon_id>category-shop.png</icon_id>
+			<code />
+			<parent_id />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Pet shop</category_title>
+			<parent_id>7</parent_id>
+			<image_id>category-image-pet-shop.jpg</image_id>
+			<font_icon_code>fa fa-female</font_icon_code>
+			<icon_id>category-pets-shop.png</icon_id>
+			<code />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Greengrocer</category_title>
+			<parent_id>7</parent_id>
+			<image_id>category-image-greengrocer.jpg</image_id>
+			<code />
+			<font_icon_code>fa fa-shopping-bag</font_icon_code>
+			<icon_id>category-grocery-cart.png</icon_id>
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Jeweller</category_title>
+			<parent_id>7</parent_id>
+			<code />
+			<image_id>category-image-jeweller.jpg</image_id>
+			<font_icon_code>fa  fa-hand-peace-o</font_icon_code>
+			<icon_id>category-jewelry.png</icon_id>
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Newsagent</category_title>
+			<parent_id>7</parent_id>
+			<image_id>category-image-newsagent-.jpg</image_id>
+			<font_icon_code>fa fa-tags</font_icon_code>
+			<icon_id>category-news.png</icon_id>
+			<code />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Shoes</category_title>
+			<parent_id>7</parent_id>
+			<image_id>category-image-shoes.jpg</image_id>
+			<font_icon_code>fa fa-street-view</font_icon_code>
+			<icon_id>category-shoes.png</icon_id>
+			<code />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Coffee</category_title>
+			<image_id>category-image-coffee.jpg</image_id>
+			<font_icon_code>fa fa-user</font_icon_code>
+			<icon_id>category-coffee.png</icon_id>
+			<code />
+			<parent_id />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Nightlife</category_title>
+			<image_id>category-image-nightlife.jpg</image_id>
+			<font_icon_code>fa fa-mobile</font_icon_code>
+			<icon_id>category-night-club.png</icon_id>
+			<code />
+			<parent_id />
+			<hidden_fields_list />
+		</category>
+		<category>
+			<category_title>Hotel</category_title>
+			<image_id>category-image-hotel.jpg</image_id>
+			<font_icon_code>fa fa-hotel</font_icon_code>
+			<icon_id>category-hotel.png</icon_id>
+			<code />
+			<parent_id />
+			<hidden_fields_list />
+		</category>
+	</categories>
+	<search_form>
+		<![CDATA[[{"field_id":"search","class":"","query_type":"","columns":""},{"field_id":"loc","class":"","query_type":"","columns":""},{"field_id":"cat","class":"","query_type":"","columns":""},{"field_id":"6","class":"","query_type":"min_max","columns":""},{"field_id":"29","class":"","query_type":"","columns":""},{"field_id":"33","class":"","query_type":"","columns":""},{"field_id":"37","class":"","query_type":"","columns":""},{"field_id":"38","class":"","query_type":"","columns":""},{"field_id":"31","class":"","query_type":"","columns":""}]]]>
+	</search_form>
+	<search_form_premium>
+		<![CDATA[[{"field_id":"search","class":"","query_type":"","columns":""},{"field_id":"loc","class":"","query_type":"","columns":""},{"field_id":"cat","class":"","query_type":"","columns":""},{"field_id":"6","class":"","query_type":"min_max","columns":""},{"field_id":"booking_date","class":"","query_type":"","columns":""},{"field_id":"29","class":"","query_type":"","columns":""},{"field_id":"33","class":"","query_type":"","columns":""},{"field_id":"37","class":"","query_type":"","columns":""},{"field_id":"38","class":"","query_type":"","columns":""},{"field_id":"31","class":"","query_type":"","columns":""}]]]>
+	</search_form_premium>
+	<resultitem>
+		<![CDATA[[[{"field_id":"location_id","class":"","columns":""}],[{"field_id":"5","class":"","columns":""}],[{"field_id":"post_title","class":"","columns":""}],[{"field_id":"2","class":"","columns":""}],[{"field_id":"13","class":"","columns":""},{"field_id":"14","class":"","columns":""},{"field_id":"8","class":"","columns":""}],[{"field_id":"6","class":"","columns":""}]]]]>
+	</resultitem>
+	<replace>
+		<text from="Listings" to="Properties" />
+		<text from="Listing" to="Property" />
+	</replace>
+</root>

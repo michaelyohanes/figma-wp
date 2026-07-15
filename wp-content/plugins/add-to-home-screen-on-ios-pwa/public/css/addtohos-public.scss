@@ -1,0 +1,20 @@
+.ios-add-to-home-screen-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.ios-add-to-home-screen-button:hover {
+    color: white;
+  }
+  
+.ios-add-to-home-screen-button.addtohos-float-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  

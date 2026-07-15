@@ -1,0 +1,877 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Add To Home Screen on iOS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-29 08:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8; php-8.2.26\n"
+"X-Domain: add-to-home-screen-on-ios-pwa"
+
+#. 1: Opening link tag, 2: Closing link tag
+#: application/models/Settings_m.php:149 application/models/Settings_m.php:162
+#, php-format
+msgid "%1$s Check it here → %2$s"
+msgstr ""
+
+#: includes/class-addtohos-review-request.php:270
+msgid "1 month"
+msgstr ""
+
+#: includes/class-addtohos-review-request.php:262
+msgid "1 week"
+msgstr ""
+
+#: application/models/Settings_m.php:104
+msgid "1. Elementor Button"
+msgstr ""
+
+#: application/models/Settings_m.php:112
+msgid "2. Shortcode Button"
+msgstr ""
+
+#: includes/class-addtohos-review-request.php:278
+msgid "3 months"
+msgstr ""
+
+#: application/models/Settings_m.php:119
+msgid "3. Activate Float Button"
+msgstr ""
+
+#: public/class-addtohos-public.php:129
+msgid "Access denied"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_features.php:34
+#: application/views/settings/tabs/addtohos_tab_features.php:37
+msgid "Activate"
+msgstr ""
+
+#: application/models/Settings_m.php:40
+msgid "Activate Manifest generator"
+msgstr ""
+
+#: admin/class-addtohos-admin.php:117
+#: application/views/settings/tabs/addtohos_tab_features.php:22
+msgid "Activated"
+msgstr ""
+
+#: admin/class-addtohos-admin.php:113
+msgid "Activating"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:100
+msgid "activity-log.com"
+msgstr ""
+
+#: shortcodes/shortcode-addtohos.php:16
+#: elementor-elements/classes/addtohos-element.php:166
+msgid "Add To Home Screen"
+msgstr ""
+
+#. Parent slug for "Appearance"
+#. Page title
+#: admin/class-addtohos-admin.php:175 admin/class-addtohos-admin.php:176
+msgid "Add To Home Screen on iOS"
+msgstr ""
+
+#. Name of the plugin
+msgid "Add To Home Screen on iOS"
+msgstr ""
+
+#: application/views/settings/index.php:20
+msgid "Add To Home Screen on iOS Settings"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:127
+msgid "Add your own custom CSS here"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:288
+msgid "Alignment"
+msgstr ""
+
+#: includes/class-addtohos-settings.php:10
+msgid "and then Add to Home Screen"
+msgstr ""
+
+#: application/models/Settings_m.php:47
+msgid "App Title"
+msgstr ""
+
+#: application/views/fields_edit/STARS.php:48
+msgid "Awesome - 5 stars"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:330
+msgid "Background"
+msgstr ""
+
+#: application/models/Settings_m.php:61
+msgid "Background Color"
+msgstr ""
+
+#: application/models/Settings_m.php:62
+msgid "Background color of the splash screen."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:716
+msgid "Background group"
+msgstr ""
+
+#: admin/class-addtohos-admin.php:160
+msgid "blocked for public"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:750
+msgid "Bob"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:419
+msgid "Border Radius"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:689
+msgid "Bottom"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:744
+msgid "Bounce In"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:745
+msgid "Bounce Out"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_support.php:18
+msgid "Bug Report"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:67
+msgid ""
+"Build your Directory portal, demos for Real Estate Agency and Car Dealership "
+"included"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:212
+msgid "Button"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_features.php:39
+msgid "Buy Now"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:762
+msgid "Buzz"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:763
+msgid "Buzz Out"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:74
+#: application/controllers/Addtohos-settings.php:88
+#: application/controllers/Addtohos-settings.php:100
+#: application/controllers/Addtohos-settings.php:112
+msgid "By"
+msgstr ""
+
+#. Author of the plugin
+msgid "By ElementInvader"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:296
+#: elementor-elements/classes/addtohos-elementor-base.php:692
+msgid "Center"
+msgstr ""
+
+#: application/models/Settings_m.php:41
+msgid "Checkbox activate Manifest generator."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:318
+msgid "Color"
+msgstr ""
+
+#: application/models/Settings_m.php:34
+msgid "Configure Progressive Web App features."
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_support.php:8
+msgid "Contact us"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:671
+msgid "Contain"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:672
+msgid "Cover"
+msgstr ""
+
+#: application/views/fields_edit/DROPDOWN.php:79
+#: application/views/fields_edit/DROPDOWN_PAGE.php:71
+msgid "Create Demo Page"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:136
+msgid "Custom CSS"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:119
+msgid "Custom Css"
+msgstr ""
+
+#: application/models/Settings_m.php:180
+msgid ""
+"Custom message for iOS / Android devices. Supports basic HTML. If empty, the "
+"default message will be used."
+msgstr ""
+
+#: application/models/Settings_m.php:48
+msgid ""
+"Custom title when added to the home screen. If empty, the site name will be "
+"used."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:355
+#: elementor-elements/classes/addtohos-elementor-base.php:669
+#: elementor-elements/classes/addtohos-elementor-base.php:687
+msgid "Default"
+msgstr ""
+
+#: application/models/Settings_m.php:126
+msgid "Default Button Color"
+msgstr ""
+
+#: application/views/fields_edit/TEXTAREA_WYSIWYG.php:62
+msgid "Default text"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:105
+msgid ""
+"Detect Which Elementor widgets Used on Pages, also not Used Widgets or "
+"Missing Widgets."
+msgstr ""
+
+#: application/controllers/Addtohos_backendajax.php:36
+msgid "Disable for current user"
+msgstr ""
+
+#: application/models/Settings_m.php:120
+msgid ""
+"Display a floating button to prompt iOS users to install the app in the "
+"frontend."
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_features.php:41
+msgid "Download Free"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:88
+#: application/controllers/Addtohos-settings.php:112
+msgid "Element Invader"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:80
+msgid "Element Invader - Elementor Template Kits Library"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:81
+msgid ""
+"ElementInvader offers premium library of one click ready and free Elementor "
+"templates from https://elementinvader.com/ service."
+msgstr ""
+
+#: application/models/Settings_m.php:106
+msgid "Elementor"
+msgstr ""
+
+#: admin/class-addtohos-admin.php:115
+msgid "Error! Reload the page and try again."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:670
+msgid "Fill"
+msgstr ""
+
+#: application/models/Settings_m.php:105
+msgid "Find in Elementor List PWA Button."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:666
+msgid "Fit"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:684
+msgid "Fit Position"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:748
+msgid "Float"
+msgstr ""
+
+#: application/models/Settings_m.php:172
+msgid "Float Prompt Message"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:525
+msgid "Font Size"
+msgstr ""
+
+#: application/views/settings/index.php:30
+msgid "General PWA"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:737
+msgid "Grow"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:747
+msgid "Grow Rotate"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:751
+msgid "Hang"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:607
+msgid "Height"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:506
+msgid "height"
+msgstr ""
+
+#. 1: Include number
+#: includes/class-addtohos-review-request.php:254
+msgid ""
+"Hey, I noticed you recently hit %d popup views on your site - that’s awesome!"
+". I would very much appreciate if you could quickly give it a 5-star rating "
+"on WordPress, just to help us spread the word."
+msgstr ""
+
+#. 1: Include count months
+#: includes/class-addtohos-review-request.php:256
+#, php-format
+msgid ""
+"Hey, you've been using WP Directory Kit for %s on your site - I hope that "
+"its been helpful. I would very much appreciate if you could quickly give it "
+"a 5-star rating on WordPress, just to help us spread the word and motivate "
+"us to make it even better."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:733
+msgid "Hover Animation"
+msgstr ""
+
+#: application/views/fields_edit/DATETIME.php:57
+#: application/views/fields_edit/DATETIME_FROM.php:56
+#: application/views/fields_edit/DATETIME_TO.php:56
+msgid "Hr"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://elementinvader.com"
+msgstr ""
+
+#: includes/class-addtohos-review-request.php:464
+msgid "I already did"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:183
+#: elementor-elements/classes/addtohos-element.php:239
+msgid "Icon"
+msgstr ""
+
+#: application/models/Settings_m.php:77
+msgid ""
+"Icon for the PWA on the home screen (converted in standard size 192x192px). "
+"If empty, a default icon will be used."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:192
+msgid "icon Position"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:22
+msgid "Icon should have min size 192px x 192px"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_support.php:5
+msgid ""
+"If you are facing any issues or unable to Setup, you can directly connect us "
+"using this link"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_support.php:15
+msgid ""
+"If you found any bug or having issues with any third party plugins you can "
+"contact us"
+msgstr ""
+
+#: application/models/Settings_m.php:97
+msgid "Install Progressive App Buttons"
+msgstr ""
+
+#: includes/class-addtohos-settings.php:10
+msgid "Install this webapp on your iPhone"
+msgstr ""
+
+#: admin/class-addtohos-admin.php:112
+msgid "Installing"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"iOS PWA APP \"Add to Home Screen\" support with a sleek popup, custom icons, "
+"and clear instructions, making your site feel like a mobile app."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:304
+msgid "Justified"
+msgstr ""
+
+#: application/views/fields_edit/STARS.php:54
+msgid "Kinda bad - 2 stars"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:38
+msgid "Layout"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:195
+#: elementor-elements/classes/addtohos-elementor-base.php:292
+#: elementor-elements/classes/addtohos-elementor-base.php:690
+msgid "Left"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:43
+#: elementor-elements/classes/addtohos-element.php:156
+msgid "Main"
+msgstr ""
+
+#: application/models/Settings_m.php:144
+msgid "Manifest"
+msgstr ""
+
+#: application/models/Settings_m.php:146
+msgid "Manifest generated successfully."
+msgstr ""
+
+#: application/models/Settings_m.php:76
+msgid "Manifest Icons"
+msgstr ""
+
+#: application/models/Settings_m.php:151
+msgid "Manifest not generated."
+msgstr ""
+
+#: application/models/Settings_m.php:83
+msgid "Manifest Screenshots"
+msgstr ""
+
+#: application/models/Settings_m.php:90
+msgid "Manifest Shortcuts"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:446
+msgid "Margin"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:553
+msgid "Max Height"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:580
+msgid "Max Width"
+msgstr ""
+
+#: application/views/fields_edit/STARS.php:52
+msgid "Meh - 3 stars"
+msgstr ""
+
+#: application/views/fields_edit/DATETIME.php:64
+#: application/views/fields_edit/DATETIME_FROM.php:63
+#: application/views/fields_edit/DATETIME_TO.php:63
+msgid "Min"
+msgstr ""
+
+#: application/helpers/Basic.php:35
+msgid "Missing VIEW file: "
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_features.php:45
+msgid "More Details"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_features.php:60
+msgid "More Plugins"
+msgstr ""
+
+#: application/views/fields_edit/CHECKBOX_READONLY.php:45
+msgid "No"
+msgstr ""
+
+#: application/controllers/Addtohos_backendajax.php:29
+msgid "No message returned!"
+msgstr ""
+
+#: includes/class-addtohos-review-request.php:454
+msgid "No, you doesn't deserver 5 stars and I will tell you why!"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:356
+#: elementor-elements/classes/addtohos-elementor-base.php:673
+msgid "None"
+msgstr ""
+
+#: includes/class-addtohos-review-request.php:459
+msgid "Nope, maybe later"
+msgstr ""
+
+#: application/views/fields_edit/DATETIME_READONLY.php:46
+#: application/views/fields_edit/DATE_READONLY.php:46
+#: application/views/fields_edit/DROPDOWN_READONLY.php:68
+#: application/views/fields_edit/INPUTBOX_READONLY.php:47
+#: application/views/fields_edit/USERS_READONLY.php:60
+msgid "Not defined"
+msgstr ""
+
+#: application/models/Settings_m.php:23
+#: application/views/fields_edit/DROPDOWN.php:50
+#: application/views/fields_edit/DROPDOWN_PAGE.php:44
+#: application/views/fields_edit/DROPDOWN_READONLY.php:46
+#: application/views/fields_edit/USERS.php:52
+msgid "Not Selected"
+msgstr ""
+
+#: includes/class-addtohos-review-request.php:449
+msgid "Ok, I will help you with 5 star rating"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:387
+msgctxt "Outline Control"
+msgid "Color"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:360
+msgctxt "Outline Control"
+msgid "Dashed"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:359
+msgctxt "Outline Control"
+msgid "Dotted"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:358
+msgctxt "Outline Control"
+msgid "Double"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:361
+msgctxt "Outline Control"
+msgid "Groove"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:402
+msgctxt "Outline Control"
+msgid "Offset"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:352
+msgctxt "Outline Control"
+msgid "Outline Type"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:357
+msgctxt "Outline Control"
+msgid "Solid"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:372
+msgctxt "Outline Control"
+msgid "Width"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:432
+msgid "Padding"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:93
+msgid ""
+"Plugin will accurately measure all activity time per page and user like "
+"working time, reading time, watching time, sessions time for specific user "
+"on specific page."
+msgstr ""
+
+#: application/views/settings/index.php:35
+msgid "Plugins"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:743
+msgid "Pop"
+msgstr ""
+
+#: application/views/settings/index.php:33
+msgid "Popup"
+msgstr ""
+
+#: application/models/Settings_m.php:179
+msgid "Popup Text"
+msgstr ""
+
+#: application/views/fields_edit/STARS.php:50
+msgid "Pretty good - 4 stars"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:739
+msgid "Pulse"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:740
+msgid "Pulse Grow"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:741
+msgid "Pulse Shrink"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:742
+msgid "Push"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:80
+msgid "PWA Button"
+msgstr ""
+
+#: application/models/Settings_m.php:33
+msgid "PWA Settings"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_support.php:13
+msgid "Report a Bug"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:196
+#: elementor-elements/classes/addtohos-elementor-base.php:300
+#: elementor-elements/classes/addtohos-elementor-base.php:691
+msgid "Right"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:746
+msgid "Rotate"
+msgstr ""
+
+#: application/views/settings/index.php:72
+msgid "Save Changes"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:674
+msgid "Scale down"
+msgstr ""
+
+#: application/views/fields_edit/DROPDOWNMULTIPLE.php:56
+msgid "Selecte"
+msgstr ""
+
+#: application/models/Settings_m.php:158
+msgid "Service Worker"
+msgstr ""
+
+#: application/models/Settings_m.php:160
+msgid "Service worker generated successfully."
+msgstr ""
+
+#: application/models/Settings_m.php:163
+msgid "Service worker not generated."
+msgstr ""
+
+#: actions.php:37 elementor-elements/classes/addtohos-element.php:33
+msgid "Settings"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:738
+msgid "Shrink"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:749
+msgid "Sink"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:752
+msgid "Skew"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:754
+msgid "Skew Backward"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:753
+msgid "Skew Forward"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:174
+msgid "Special attr id for link"
+msgstr ""
+
+#: application/models/Settings_m.php:55
+msgid "Start Page"
+msgstr ""
+
+#: application/models/Settings_m.php:132
+msgid "Status"
+msgstr ""
+
+#: application/views/settings/index.php:27
+msgid "Successfully saved"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_features.php:2
+msgid "Suggested plugins"
+msgstr ""
+
+#: application/views/settings/index.php:37
+msgid "Support"
+msgstr ""
+
+#: includes/class-addtohos-settings.php:10
+msgid "tap"
+msgstr ""
+
+#: application/views/settings/tabs/addtohos_tab_support.php:3
+msgid "Technical Issue"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-element.php:164
+msgid "Text Link"
+msgstr ""
+
+#: application/models/Settings_m.php:68
+msgid "Theme Color"
+msgstr ""
+
+#: application/models/Settings_m.php:69
+msgid "Theme color is used on supported devices to UI elements of the browser."
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:688
+msgid "Top"
+msgstr ""
+
+#: elementor-elements/elementor-init.php:207
+msgid "tourCore RSS"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:471
+msgid "Transition Duration"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:147
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom "
+"selector"
+msgstr ""
+
+#. 1: include icon code
+#: application/models/Settings_m.php:182
+#, php-format
+msgid "Use %1$s where you want the arrow icon to appear."
+msgstr ""
+
+#: application/models/Settings_m.php:56
+msgid "Use this field to choose a custom start page for your app."
+msgstr ""
+
+#: application/views/fields_edit/STARS.php:56
+msgid "Very bad - 1 star"
+msgstr ""
+
+#: application/views/fields_edit/DROPDOWN.php:72
+#: application/views/fields_edit/DROPDOWN_PAGE.php:63
+msgid "View Page"
+msgstr ""
+
+#: application/views/fields_edit/CHECKBOX.php:48
+#: application/views/fields_edit/CHECKBOX_MULTIPLE.php:43
+#: application/views/fields_edit/CHECKBOX_MULTIPLE_SINGLE_FIELD.php:50
+#: application/views/fields_edit/RADIO.php:46
+msgid "Visible on"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:104
+msgid "Widget Detector for Elementor"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:68
+msgid "Widget Name"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:488
+#: elementor-elements/classes/addtohos-elementor-base.php:634
+msgid "Width"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:760
+msgid "Wobble Bottom"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:756
+msgid "wobble Horizontal"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:761
+msgid "Wobble Skew"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:757
+msgid "Wobble To Bottom Right"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:758
+msgid "Wobble To Top Eight"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:759
+msgid "Wobble Top"
+msgstr ""
+
+#: elementor-elements/classes/addtohos-elementor-base.php:755
+msgid "Wobble Vertical"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:66
+#: application/controllers/Addtohos-settings.php:74
+msgid "WP Directory Kit"
+msgstr ""
+
+#: application/controllers/Addtohos-settings.php:92
+msgid "WP Sessions Time Monitoring Full Automatic"
+msgstr ""
+
+#: application/controllers/Addtohos_backendajax.php:41
+msgid "Wrong _wpnonce"
+msgstr ""
+
+#: application/views/fields_edit/CHECKBOX_READONLY.php:43
+msgid "Yes"
+msgstr ""
+
+#: application/models/Settings_m.php:113
+msgid ""
+"You can insert the shortcode [addtohos_ios_add_to_home_screen_button "
+"button_text=\"Add to Home Screen\" custom_class=\"\"] anywhere on your site "
+"to display an “Add to Home Screen” button."
+msgstr ""
